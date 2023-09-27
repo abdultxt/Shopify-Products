@@ -1,0 +1,32 @@
+<h1 class="text-center">Product List</h1>
+<div class="container">
+ <button routerLink="/add-student" class="btn btn-success">Add Product</button>
+</div>
+
+<div class="container">
+    <table class="table table-stripped">
+        <tr>
+            <th>Sno</th>
+            <th>Product Name</th>
+            <th>Product Ads</th>
+            <th>Product Price</th>
+            <th>Product Link</th>
+            <th>Action</th>
+        </tr>
+        <tr *ngFor="let item of StudentList">
+            <td>{{item.id}}</td>
+            <td>{{item.productName}}</td>
+            <td>{{item.productAds}}</td>
+            <td>${{item.productPrice}}</td>
+            <td>{{item.productLink}}</td>
+           <td>
+            <div class="btn-group">
+            <a routerLink="#" class="btn btn-success">Edit</a>
+            <a routerLink="#" class="btn btn-secondary mx-2">View</a>
+            <a routerLink="#" class="btn btn-danger mx-2">Delete</a>
+        </div>
+           </td>
+
+        </tr>
+    </table>
+</div>

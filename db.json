@@ -1,0 +1,28 @@
+{
+  "students": [
+    {
+      "productName": "Abdul",
+      "productAds": "12",
+      "productPrice": "7495836594896",
+      "productLink": "abdul.mail.com",
+      "IsActive": true,
+      "id": 1
+    },
+    {
+      "productName": "Nulla quae tenetur a",
+      "productAds": 46,
+      "productPrice": 50,
+      "productLink": "Dolorum in dolore mo",
+      "IsActive": "true",
+      "id": 2
+    },
+    {
+      "productName": "Eaque earum ducimus",
+      "productAds": 65,
+      "productPrice": 92,
+      "productLink": "Soluta quia ut error",
+      "IsActive": "true",
+      "id": 3
+    }
+  ]
+}
